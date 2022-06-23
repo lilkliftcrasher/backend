@@ -1,0 +1,14 @@
+
+GET  http://127.0.0.1:3001/api/services
+
+###
+POST   http://127.0.0.1:3001/api/services
+content-type: application/json
+
+{
+    "icon": "Sduiujjjdjdj",
+    "title": "T",
+    "content":"Let me help you on the core task now, validate the design solution,collect your own data understand your users, and don't just copy your competit."
+    
+}
+

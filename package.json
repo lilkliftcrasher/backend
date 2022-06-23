@@ -1,0 +1,35 @@
+{
+  "name": "phone-book-backend",
+  "version": "1.0.0",
+  "description": "back-end our phonebook app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilkliftcrasher/phone-book-backend.git"
+  },
+  "author": "kliftcrasher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilkliftcrasher/phone-book-backend/issues"
+  },
+  "homepage": "https://github.com/lilkliftcrasher/phone-book-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "mongoose-unique-validator": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
