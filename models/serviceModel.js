@@ -8,7 +8,7 @@ const serviceSchema = mongoose.Schema({
         required: true
     },
     content: String
-})
+});
 
 serviceSchema.set('toJSON',{
     transform:(document, returnObject)=>{
@@ -16,6 +16,6 @@ serviceSchema.set('toJSON',{
         delete returnObject._id
         delete returnObject.__v
     }
-})
+});
 
 module.exports = mongoose.model('Service',serviceSchema)  
